@@ -1,0 +1,67 @@
+create table if not exists "Hotel"
+(
+    "hotelId"   integer not null
+        constraint hotel_pk
+            primary key,
+    "hotelName" varchar(48),
+    phone       varchar(24),
+    email       varchar(48),
+    address     varchar(48)
+);
+
+alter table "Hotel"
+    owner to postgres;
+
+create table if not exists "Room"
+(
+    "roomId"       integer not null
+        constraint room_pk
+            primary key,
+    "roomNum"      integer,
+    "roomType"     integer,
+    "roomPrice"    integer,
+    "roomDiscount" numeric,
+    "roomStatus"   integer,
+    remark         text
+);
+
+alter table "Room"
+    owner to postgres;
+
+create table if not exists "RoomType"
+(
+    "typeId"   integer not null
+        constraint roomtype_pk
+            primary key,
+    "roomType" varchar(24),
+    remark     text,
+    price      integer,
+    discount   numeric,
+    "bedNum"   integer,
+    "bedSize"  integer
+);
+
+alter table "RoomType"
+    owner to postgres;
+
+create table if not exists "User"
+(
+    username varchar(24),
+    password varchar(24),
+    name     varchar(24),
+    gender   integer,
+    phone    varchar(24),
+    email    varchar(48),
+    address  varchar(48),
+    idcard   bigint not null
+        constraint user_pk
+            primary key,
+    "grant"  integer
+);
+
+alter table "User"
+    owner to postgres;
+
+create unique index if not exists user_idcard_uindex
+    on "User" (idcard);
+
