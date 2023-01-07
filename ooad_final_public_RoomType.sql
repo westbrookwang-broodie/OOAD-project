@@ -1,0 +1,9 @@
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (4, '标准双床房', 80, 2, 250, 1, 10101001);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (7, '三床房', 120, 3, 440, 0.7, 10000111);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (5, '豪华双床房', 100, 2, 330, 1, 11111111);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (1, '标准单人间', 50, 1, 120, 0.6, 11110000);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (6, '总统套房', 150, 4, 500, 0.85, 11111111);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (3, '标准大床房', 75, 1, 220, 1, 10001110);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (2, '豪华双人间', 130, 2, 300, 0.7, 11111111);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (8, '经济单人间', 30, 1, 100, 0.8, 11000000);
+INSERT INTO public."RoomType" (id, room_type, area, bed_number, price, discount, kind) VALUES (9, 'jijdd', 43, 1, 122, 1, 11110000);

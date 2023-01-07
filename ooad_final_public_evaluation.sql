@@ -1,0 +1,7 @@
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (2, '123456', 4, 'C:\Users\86177\Desktop\files\AdGuard.png', '风景真不错！', 5, 3, 5, 8);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (4, '123456', 5, 'C:\Users\86177\Desktop\files\hotel.mp4', '酒店设施好，所处地段好，很方便', 5, 4, 5, 11);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (3, '123456', 4, null, '真不错，下次还来', 5, 4, 5, 9);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (1, 'wangyu', 4, 'C:\Users\86177\Desktop\files\AdGuard.png', '第一次来就震惊了，体验极佳', 5, 4, 5, 7);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (6, '123456', 4, null, '听说还有明星入住', 3, 4, 4, 16);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (5, '123456', 4, 'C:\Users\86177\Desktop\files\Activity Monitor.jpg', 'yzd表示想回到过去', 4, 3, 4, 7);
+INSERT INTO public.evaluation (id, username, "overallRate", url, remark, "enRate", "noRate", "serveRate", "orderId") VALUES (8, '123456', 5, 'C:\Users\86177\Desktop\files\room-1.jpg', '66666666', 4, 4, 5, 16);
